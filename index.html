@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first Psd to html Project</title>
+
+    <!-- ----GOOGLE FONT--- -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <!-- ---FONT AWESOME--- -->
+    <script src="https://kit.fontawesome.com/5fad063362.js" crossorigin="anonymous"></script>
+
+    <!-- ---STYLE-CSS-FILE -->
+    <link rel="stylesheet" href="/Resources/css/style.css">
+</head>
+<body>
+ 
+<!-- HEADER START HERE  -->
+
+<header id="Home">
+    <nav>
+        <div class="row">
+            <a href="#Home">
+                <img src="/Resources/img/Logo.png" alt="Cuda" class="logo">
+            </a>
+            <ul class="Main-nav">
+                <li class="Active"><a href="#Home">Home</a></li>
+                <li><a href="#Service">services</a></li>
+                <li><a href="#Team">Team</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+
+            <div class="mobile-manu">
+                <i onclick="openNav()" class="fas fa-align-right open"></i>
+                <div class="overlay" id="myNav">
+                <i  onclick="closeNav()" class="fas fa-times" id="closebtn"></i>
+                <div class="overlay-content">
+                    <a onclick="closeNav()" href="#Home">Home</a></li>
+                    <a onclick="closeNav()" href="#Service">services</a>
+                    <a onclick="closeNav()" href="#Team">Team</a>
+                    <a onclick="closeNav()" href="#Skill">Skill</a>
+                    <a onclick="closeNav()" href="#Portfolio">Portfolio</a>
+                    <a onclick="closeNav()" href="#Testimonial">Testimonial</a>
+                    <a onclick="closeNav()" href="#Contact">Contact</a>
+                </div>
+            </div>
+
+            </div>
+        </div>  
+    </nav>
+
+    <div class="row">
+        <div class="hero-text-box">
+        <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+                <a href="#Contact" class="btn btn-hero">work with us</a>
+        </div>
+        
+    </div>
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+        .path-0{
+          animation:pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0{
+          0%{
+            d: path("M 0,500 C 0,500 0,166 0,166 C 128.64285714285717,186.85714285714286 257.28571428571433,207.71428571428572 391,203 C 524.7142857142857,198.28571428571428 663.5,168 776,163 C 888.5,158 974.7142857142858,178.2857142857143 1081,183 C 1187.2857142857142,187.7142857142857 1313.642857142857,176.85714285714283 1440,166 C 1440,166 1440,500 1440,500 Z");
+          }
+          25%{
+            d: path("M 0,500 C 0,500 0,166 0,166 C 96.25,195.60714285714286 192.5,225.21428571428572 319,220 C 445.5,214.78571428571428 602.2499999999999,174.75 725,160 C 847.7500000000001,145.25 936.5,155.78571428571428 1050,161 C 1163.5,166.21428571428572 1301.75,166.10714285714286 1440,166 C 1440,166 1440,500 1440,500 Z");
+          }
+          50%{
+            d: path("M 0,500 C 0,500 0,166 0,166 C 99.42857142857142,142.07142857142856 198.85714285714283,118.14285714285714 324,126 C 449.14285714285717,133.85714285714286 600.0000000000001,173.5 737,185 C 873.9999999999999,196.5 997.1428571428571,179.85714285714283 1112,172 C 1226.857142857143,164.14285714285717 1333.4285714285716,165.07142857142858 1440,166 C 1440,166 1440,500 1440,500 Z");
+          }
+          75%{
+            d: path("M 0,500 C 0,500 0,166 0,166 C 101.89285714285714,169.85714285714286 203.78571428571428,173.71428571428572 339,159 C 474.2142857142857,144.28571428571428 642.7499999999999,111.00000000000003 773,123 C 903.2500000000001,134.99999999999997 995.2142857142858,192.28571428571428 1100,207 C 1204.7857142857142,221.71428571428572 1322.392857142857,193.85714285714286 1440,166 C 1440,166 1440,500 1440,500 Z");
+          }
+          100%{
+            d: path("M 0,500 C 0,500 0,166 0,166 C 128.64285714285717,186.85714285714286 257.28571428571433,207.71428571428572 391,203 C 524.7142857142857,198.28571428571428 663.5,168 776,163 C 888.5,158 974.7142857142858,178.2857142857143 1081,183 C 1187.2857142857142,187.7142857142857 1313.642857142857,176.85714285714283 1440,166 C 1440,166 1440,500 1440,500 Z");
+          }
+        }</style><defs><linearGradient id="gradient" x1="91%" y1="21%" x2="9%" y2="79%"><stop offset="5%" stop-color="#32ded4ff"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,166 0,166 C 128.64285714285717,186.85714285714286 257.28571428571433,207.71428571428572 391,203 C 524.7142857142857,198.28571428571428 663.5,168 776,163 C 888.5,158 974.7142857142858,178.2857142857143 1081,183 C 1187.2857142857142,187.7142857142857 1313.642857142857,176.85714285714283 1440,166 C 1440,166 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><style>
+        .path-1{
+          animation:pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1{
+          0%{
+            d: path("M 0,500 C 0,500 0,333 0,333 C 149.64285714285717,334.8571428571429 299.28571428571433,336.7142857142857 422,349 C 544.7142857142857,361.2857142857143 640.5000000000001,384.00000000000006 753,377 C 865.4999999999999,369.99999999999994 994.7142857142856,333.2857142857143 1112,321 C 1229.2857142857144,308.7142857142857 1334.6428571428573,320.8571428571429 1440,333 C 1440,333 1440,500 1440,500 Z");
+          }
+          25%{
+            d: path("M 0,500 C 0,500 0,333 0,333 C 132.17857142857144,309.5 264.3571428571429,286 390,281 C 515.6428571428571,276 634.75,289.5 752,305 C 869.25,320.5 984.6428571428573,338 1099,343 C 1213.3571428571427,348 1326.6785714285713,340.5 1440,333 C 1440,333 1440,500 1440,500 Z");
+          }
+          50%{
+            d: path("M 0,500 C 0,500 0,333 0,333 C 126.67857142857142,342.7857142857143 253.35714285714283,352.57142857142856 377,360 C 500.64285714285717,367.42857142857144 621.2500000000001,372.50000000000006 753,374 C 884.7499999999999,375.49999999999994 1027.642857142857,373.4285714285714 1144,366 C 1260.357142857143,358.5714285714286 1350.1785714285716,345.78571428571433 1440,333 C 1440,333 1440,500 1440,500 Z");
+          }
+          75%{
+            d: path("M 0,500 C 0,500 0,333 0,333 C 157.07142857142856,291.7142857142857 314.1428571428571,250.42857142857144 423,271 C 531.8571428571429,291.57142857142856 592.5,374.00000000000006 684,393 C 775.5,411.99999999999994 897.8571428571429,367.57142857142856 1029,347 C 1160.142857142857,326.42857142857144 1300.0714285714284,329.7142857142857 1440,333 C 1440,333 1440,500 1440,500 Z");
+          }
+          100%{
+            d: path("M 0,500 C 0,500 0,333 0,333 C 149.64285714285717,334.8571428571429 299.28571428571433,336.7142857142857 422,349 C 544.7142857142857,361.2857142857143 640.5000000000001,384.00000000000006 753,377 C 865.4999999999999,369.99999999999994 994.7142857142856,333.2857142857143 1112,321 C 1229.2857142857144,308.7142857142857 1334.6428571428573,320.8571428571429 1440,333 C 1440,333 1440,500 1440,500 Z");
+          }
+        }</style><defs><linearGradient id="gradient" x1="91%" y1="21%" x2="9%" y2="79%"><stop offset="5%" stop-color="#0693e3ff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,333 0,333 C 149.64285714285717,334.8571428571429 299.28571428571433,336.7142857142857 422,349 C 544.7142857142857,361.2857142857143 640.5000000000001,384.00000000000006 753,377 C 865.4999999999999,369.99999999999994 994.7142857142856,333.2857142857143 1112,321 C 1229.2857142857144,308.7142857142857 1334.6428571428573,320.8571428571429 1440,333 C 1440,333 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+
+    
+
+    </header>
+
+<!-- HEADER ENDS HERE  -->
+
+
+
+<!-- SERVICES SECTION STARTS HERE  -->
+
+    <section class="services-section js--services-section" id="Service">
+    <div class="row">
+        <h2>SERVICES WE PROVIDE</h2>
+        <p class="Paragraph">We are working with both individuals and businesses from  all over the globe <br> to create awesome websites and applications.
+            </p>
+    </div>
+
+    <div class="row">
+        <div class="col span_1_of_4">
+            <img src="/Resources/img/Flag.png" alt="Flag" class="img-icon">
+            <h3>Branding</h3>
+            <p class="para-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+
+        </div>
+
+        <div class="col span_1_of_4">
+            <img src="/Resources/img/Pen.png" alt="Flag" class="img-icon">
+            <h3>Design</h3>
+            <p class="para-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+
+        <div class="col span_1_of_4">
+            <img src="/Resources/img/Img3.png" alt="Flag" class="img-icon">
+            <h3>Development</h3>
+            <p class="para-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+
+        <div class="col span_1_of_4">
+            <img src="/Resources/img/Rocket.png" alt="Flag" class="img-icon">
+            <h3>ROCKET SCIENCE</h3>
+            <p class="para-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- SERVICES SECTION ENDS HERE  -->
+
+
+<!-- /* TEAM SECTION STARTS HERE  */ -->
+
+    <section class="Team-section" id="Team">
+        <div class="row">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p class="Paragraph">We are a small team of designers and developers, who help brands with big ideas.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col span_1_of_4">
+                <img src="/Resources/img/prince-akachi-GqHeaHja5m0-unsplash.jpg" alt="" class="team-pic">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="degination">CEO / Marketing Guru</span>
+                <p class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, 
+               deleniti praesentium repellat enim ea reprehenderit.</p>
+               <div class="social-link">
+                   <ul>
+                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                       <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="col span_1_of_4">
+                <img src="/Resources/img/kamran-ch-pqIC34i-yFU-unsplash.jpg" alt="" class="team-pic">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="degination">CEO / Marketing Guru</span>
+                <p class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, 
+               deleniti praesentium repellat enim ea reprehenderit.</p>
+               <div class="social-link">
+                   <ul>
+                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                       <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="col span_1_of_4">
+                <img src="/Resources/img/albert-dera-ILip77SbmOE-unsplash.jpg" alt="" class="team-pic">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="degination">CEO / Marketing Guru</span>
+                <p class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, 
+               deleniti praesentium repellat enim ea reprehenderit.</p>
+               <div class="social-link">
+                   <ul>
+                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                       <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="col span_1_of_4">
+                <img src="/Resources/img/chanvre-quebec-mXu1SpzHq6w-unsplash.jpg" alt="" class="team-pic">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="degination">CEO / Marketing Guru</span>
+                <p class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, 
+               deleniti praesentium repellat enim ea reprehenderit.</p>
+               <div class="social-link">
+                   <ul>
+                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                       <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
+                   </ul>
+               </div>
+            </div>  
+
+
+
+
+
+        </div>
+    </section>
+
+<!-- /* TEAM SECTION ENDS HERE  */ -->
+
+
+<!-- -- SKILL SECTION  START HERE-->
+
+    <section class="skill-section" id="Skill">
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+
+        <div class="row">
+            <div class="col span_1_of_4">
+                <svg class="radial-progress html" data-percentage="95" viewBox="0 0 80 80">
+
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+
+                    <h4>Web-Design</h4>
+                  
+                  </svg>
+                  
+            </div>
+
+            <div class="col span_1_of_4">
+                    <svg class="radial-progress css" data-percentage="80" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  
+                    <circle class="complete" cx="40" cy="40" r="35" 
+                    style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 
+                    0, 80, 0)">80%</text>
+
+                    <h4>Html/Css</h4>
+                  
+                  </svg>
+                  
+            </div>
+
+            <div class="col span_1_of_4">
+                    <svg class="radial-progress javascript" data-percentage="60" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  
+                    <circle class="complete" cx="40" cy="40" r="35" 
+                    style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 
+                    0, 80, 0)">70%</text>
+
+                    <h4>Graphic Design</h4>
+                  
+                  </svg>
+                  
+            </div>
+
+            <div class="col span_1_of_4">
+                    <svg class="radial-progress bootstrap" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  
+                    <circle class="complete" cx="40" cy="40" r="35" 
+                    style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 
+                    0, 80, 0)">90%</text>
+
+                    <h4>Ui/Ux</h4>
+                  
+                  </svg>
+                  
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- -- SKILL SECTION  ENDS HERE-->
+
+<!-- PORTFOLIO SECTION STARTS HERE  -->
+
+<section class="portfolio-section" id="Portfolio">
+
+    <div class="row">
+        <h2>OUR PORTFOLIO</h2>
+        <p class="Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+        eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="button-section">
+            <button type="button" data-filter="all">all</button>
+            <button type="button" data-filter=".web">web</button>
+            <button type="button" data-filter=".apps">apps</button>
+            <button type="button" data-filter=".icons">icons</button>
+        
+        </div>
+    </div>
+
+    
+    <div class="row container">
+
+            <div class="col span_1_of_2 mix web">
+                <img src="/Resources/img/Portfolio1.png" alt="" class="portfolio-1">
+                <p class="para-3">Isometric Perspective Mock-Up</p>
+            </div>
+
+            <div class="col span_1_of_2 mix apps web">
+                <img src="/Resources/img/Portfolio2.png" alt="" class="portfolio-1">
+                <p class="para-3">Time Zone App UI</p>
+            </div>
+
+            <div class="col span_1_of_2 mix apps icons">
+                <img src="/Resources/img/Portfolio3.png" alt="" class="portfolio-1">
+                <p class="para-3">Viro Media Players UI</p>
+            </div>
+
+            <div class="col span_1_of_2 mix icons">
+                <img src="/Resources/img/Portfolio4.png" alt="" class="portfolio-1">
+                <p class="para-3">Blog / Magazine Flat UI Kit</p>
+            </div>
+
+        </div>
+
+    <!-- <div class="row"> -->
+        <!-- <button type="button" class="btn btn-portfolio">LOAD MORE PROJECTS</button> -->
+    <!-- </div> -->
+
+</section>
+
+
+<!-- PORTFOLIO SECTION  STARTS HERE -->
+
+
+<!-- --TESTIMONIAL SECTION STARTS HERE  -->
+
+    <section class="Testimonial-section" id="Testimonial">
+                <div class="row">
+                    <h2>WHAT POEPLE SAY ABOUT US</h2>
+                    <p class="Paragraph">Our clients love us!</p>
+                </div>
+                
+
+                <div class="row">
+                    <div class="col span_1_of_2">
+                        <div class="img-1">
+                            <img src="/Resources/img/kamran-ch-pqIC34i-yFU-unsplash.jpg" alt="">
+                        </div>
+                        <div class="review-1">
+                            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                            <h3 class="name">Chanel Iman</h3>
+                            <span class="des">CEO of Pinterest</span>
+                        </div>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <div class="img-1">
+                            <img src="/Resources/img/prince-akachi-GqHeaHja5m0-unsplash.jpg" alt="">
+                        </div>
+                        <div class="review-1">
+                            <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                            <h3 class="name">ADRIANA LIMA</h3>
+                            <span class="des">Founder of Instagram</span>
+                        </div>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <div class="img-1">
+                            <img src="/Resources/img/chanvre-quebec-mXu1SpzHq6w-unsplash.jpg" alt="">
+                        </div>
+                        <div class="review-1">
+                             <p>“Vivamus luctus urna sed urna ultricies ac tempor dui
+                            sagittis. In condimentum facilisis porta.”</p>
+                            <h3 class="name">ANNE HATHAWAY</h3>
+                            <span class="des">Lead Designer at Behance</span>
+                        </div>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <div class="img-1">
+                            <img src="/Resources/img/albert-dera-ILip77SbmOE-unsplash.jpg" alt="">
+                        </div>
+                        <div class="review-1">
+                            <p>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”
+                            </p>
+                            <h3 class="name">EMMA STONE</h3>
+                            <span class="des">Co-Founder of Shazam</span>
+                        </div>
+                    </div>
+                </div>
+
+
+    </section>
+
+
+<!-- --TESTIMONIAL SECTION ENDS HERE  -->
+
+
+
+<!-- CONTACT SECTION STARTS HERE  -->
+
+<section class="Contact-section" id="Contact">
+
+    <div class="row">
+        <h2>GET IN TOUCH</h2>
+        <p class="Paragraph">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+        </p>
+    </div>
+
+    <div class="row">
+        <form action="" method="post">
+            <div class="row">
+                <div class="col span_1_of_2">
+                    <input type="Text" placeholder="Your Name: *" name="Name" required>
+                </div>
+
+                <div class="col span_1_of_2">
+                    <input type="Email" placeholder="Your Email: *" name="Email" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <textarea name="Message" id="" cols="30" rows="7" placeholder="Message here"></textarea>
+            </div>
+
+            <div class="row">
+                <input type="button" class="btn btn-submit" value="Send Message">
+            </div>
+        </form>
+    </div>
+
+</section>
+
+<!-- CONTACT SECTION ENDS HERE  -->
+
+
+
+
+
+
+<!-- ---JS-PLUGIN--- -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/Vendors/js/html5shiv.min.js"></script>
+<script src="/Vendors/js/respond.min.js"></script>
+<script src="/Vendors/js/jquery.scrollUp.min.js"></script>
+<script src="/Vendors/js/jquery.waypoints.min.js"></script>
+<script src="/Vendors/js/Animated circle plugins.js"></script>
+<script src="/Vendors/js/mixitup.min.js"></script>
+<script src="/Resources/js/main.js"></script>
+
+
+
+</body>
+</html>
